@@ -4,7 +4,7 @@ export default function Interest (){
     return(
         <div>
            <h1>Interest</h1>
-            <p>I am interested in learning new things just for the sake of learning. I paint, dance, play guitar, piano, play basketball, football, table-tennis, jounal, read and so on. I am also passionate about leading events and programs that benefit the society.</p>   
+            <p>I live for merging accurate science with addictive gameplay. When not designing, I research how games can normalize conversations about consent, puberty and sexuality – because everyone deserves shame-free education.</p>   
         </div>
     );
 }
