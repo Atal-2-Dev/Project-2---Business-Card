@@ -1,0 +1,62 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+   background-color: #282d35;
+   color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+}
+
+.nav--icon{
+  height: 40px;
+  padding: 25px 25px;
+}
+
+.nav--iconname{
+  color: #61dafb;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.nav--title{
+  padding-right: 50px;
+}
+
+.maincomponent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.maincomponent h1{
+  font-size: 50px;
+  margin: 40px;
+}
+
+#funfacts{
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+#funfacts li{
+  padding-block: 10px;
+}
+
+#funfacts li::marker{
+  font-size: 2.2 rem;
+  color: #61dafb;
+}
+
+.maincomponent {
+  background-image: url(./images/bg_removed_logo_light_grey-finalpreview.png);
+  background-repeat: no-repeat;
+  background-position: right 60%;
+  background-size: 20%;
+}
