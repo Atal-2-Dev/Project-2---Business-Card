@@ -1,62 +1,90 @@
-*{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.entire-content{
+  height: 930px;
+  width: 300px;
+  background-color: #0E7C7B;
+  border-radius: 25px;  
 }
 
-body{
-   background-color: #282d35;
-   color: white;
-}
-nav {
-  display: flex;
-  align-items: center;
-  background-color: #21222A;
-  height: 90px;
+
+ul {
+  list-style: none;
 }
 
-.nav--icon{
-  height: 40px;
-  padding: 25px 25px;
-}
-
-.nav--iconname{
-  color: #61dafb;
-  font-weight: 700;
-  margin-right: auto;
-}
-
-.nav--title{
-  padding-right: 50px;
-}
-
-.maincomponent{
+ul.intro-contents{
+  margin: 0%;
+  padding: 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
 }
 
-.maincomponent h1{
-  font-size: 50px;
-  margin: 40px;
+.intro-pic{
+  height: 350px;
+  width: 300px;
+  margin: 0%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
-#funfacts{
-  margin-top: 0px;
+.intro-name{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 550
+}
+
+.intro-job{
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-website{
+  font-size: 14px;
+}
+
+ul.intro-button-email, ul.intro-button-linkedin{
+  padding: 10px;
+}
+
+
+.intro-button, .intro-button-email, .intro-button-linkedin{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0%
+}
+
+.intro-button-email, .intro-button-linkedin{
+  background-color: #17BEBB;
+  border-radius: 25px;
+}
+
+.intro-button-email-text, .intro-button-linkedin-text{
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
 }
 
-#funfacts li{
-  padding-block: 10px;
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-align: justify;
 }
 
-#funfacts li::marker{
-  font-size: 2.2 rem;
-  color: #61dafb;
+h1, p{
+  padding: 10px;
 }
 
-.maincomponent {
-  background-image: url(./images/bg_removed_logo_light_grey-finalpreview.png);
-  background-repeat: no-repeat;
-  background-position: right 60%;
-  background-size: 20%;
+.footer-logos{
+  display: flex;
+  justify-content: space-around;
+  padding: 0%;
+  padding-top: 10px;
+  background-color: #181D27;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
