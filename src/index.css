@@ -84,6 +84,7 @@ h1, p{
   justify-content: space-around;
   padding: 0%;
   padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #181D27;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
